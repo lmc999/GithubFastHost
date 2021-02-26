@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir aiohttp
 
 COPY gh-check.py .
 
-CMD ["python", "./gh-check.py"]
+CMD ["python", "./gh-check.py", "http"]
